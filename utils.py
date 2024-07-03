@@ -4,6 +4,8 @@ import numpy as np
 from torch import topk
 from sentence_transformers import SentenceTransformer
 
+
+
 @st.cache_data
 def load_model():
     model = SentenceTransformer('paraphrase-MiniLM-L6-v2')
